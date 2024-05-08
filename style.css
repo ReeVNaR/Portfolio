@@ -1,0 +1,416 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(39, 6, 75);
+    color: rgb(255, 255, 255);
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: transparent;
+    padding: 20px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+
+*{
+margin: 0;
+padding: 0;
+}
+body {
+background-image: url(https://firebasestorage.googleapis.com/v0/b/ranveer-portfolio.appspot.com/o/main.jpg?alt=media&token=48b21a13-ae98-47a1-932a-3ee3e2ac93b9);
+background-size: cover;
+height: 300px;
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+}
+div ul li a{
+text-decoration: none;
+color: rgb(255, 255, 255);
+}
+div ul li a:hover{
+text-decoration: wavy;
+color: rgb(36, 120, 222);
+font-size: 1.2rem;
+}
+.left{
+font-size: 50px;
+}
+.right{
+font-size: 25px;
+}
+.sec > div{
+width: 30%;
+}
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex   ;
+}
+.logo{
+  text-decoration: none;
+  color: white;
+}
+.logo:hover{
+  color: rgb(36, 120, 222);
+}
+.name{
+  color: rgb(36, 120, 222);
+}
+.sec1{
+    justify-content: space-around;
+    padding: 220px 300px;
+    margin: 130px 0;
+    font-style: italic;
+    font-size: 3rem;
+    min-height: 30vh;
+    align-items: center;
+}
+
+.about {
+  padding: 50px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #191717;
+}
+
+.about-text {
+  margin-left: 50px;
+  width: 500px; /* Adjust this value to make the div bigger */
+}
+.pat{
+  color: rgb(1, 132, 255);
+}
+
+.about-text h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+}
+
+.about-text h5 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.about-text h5 span {
+  color: #914caf;
+}
+
+.about-text p {
+  font-size: 25px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  text-decoration: none;
+}
+.top-btn {
+  display: inline-block;
+  padding: 9px 20px;
+  margin-left: 20px;
+  background: transparent;
+  border: 2px solid #914caf;
+  border-radius: 30px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  transition: ease 0.5s;
+  text-decoration: none;
+  color: white;
+}
+.top-btn:hover {
+  transform: scale(1.1);
+  background: #914caf;
+  border: 2px solid #914caf;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #914caf;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: #914caf;
+}
+
+.cv {
+  text-decoration: none;
+  background-color: #333;
+  margin-left: 10px;
+  transition: background-color 0.3s; /* Add transition for hover effect */
+  
+}
+
+.cv:hover {
+  background-color: #914caf;
+  text-decoration: none;
+}
+
+img {
+  max-width: 500px;
+  height: auto;
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 20px;
+}
+.sec5 {
+    font-family: "Outfit";
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .contact-container {
+    height: 100vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .contact-left {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+  }
+  .contact-left-title h2 {
+    font-weight: 600;
+    color: rgb(36, 120, 222);
+    font-size: 40px;
+    margin-bottom: 5px;
+  }
+  .contact-left-title hr {
+    border: none;
+    width: 120px;
+    height: 5px;
+    background-color: rgb(36, 120, 222);
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  .contact-input {
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: #666;
+    border-radius: 50px;
+  }
+  .contact-left textarea {
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+  }
+  .contact-input:focus {
+    border: 2px solid rgb(36, 120, 222);
+  }
+  .contact-input:placeholder {
+    color: #a9a9a9;
+  }
+  .contact-left button {
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #fff;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(270deg, rgb(36, 120, 222), rgb(36, 120, 222));
+    cursor: pointer;
+  }
+  .contact-left button img {
+    height: 15px;
+  }
+  .contact-right img {
+    width: 500px;
+  }
+  @media (max-width: 800px) {
+    .contact-input {
+      width: 80vw;
+    }
+    .contact-right {
+      display: none;
+    }
+  }
+  .rightpart a {
+    text-decoration: none;
+    color: rgb(36, 120, 222);
+
+  }
+  .rightpart{
+
+        padding: 20px 70px;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: baseline;
+        font-size: 40px;
+        word-spacing: 10px  ;
+      }
+  #logo {
+    width: 50px;
+  }
+  .sec3 {
+    padding: 0;
+    margin: 0;
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/ranveer-portfolio.appspot.com/o/skills.jpg?alt=media&token=c35dd2b4-9a34-438a-9051-81074a492719);
+    background-repeat: no-repeat;
+    background-size: 1600px 800px;
+    display: flex;
+    text-transform: uppercase;
+    list-style: none;
+    min-height: 100vh;
+  }
+  .main-box{
+    margin-left: 200px;
+  }
+.r{
+    margin-top: 70px;
+    margin-left: 150px;
+  }
+  .pro{  
+    color: white;
+    font-size: 20px;
+  }
+  .ri{
+    position: relative;
+  }
+  .con{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgb(0, 0, 0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+  }
+  .con:hover{
+    opacity: 2;
+  }
+  .rtb{
+    text-decoration: none;
+    color: white;
+  }
+  h1 {
+    text-align: center;
+    color: #fff;
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+  h3 {
+    margin: 5px;
+  }
+  .skill {
+    background-color: rgb(29, 29, 29);
+    align-items: center;
+    width: 500px;
+    margin: 0 auto;
+    color: #fff;
+    padding: 30px 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+  .skill li {
+    margin: 40px 0;
+    border: 10px;
+  }
+  .bar {
+    background: #353b48;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  }
+  .bar:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+  .bar span {
+    height: 20px;
+    float: left;
+    background: linear-gradient(
+      135deg,
+      rgb(1, 132, 255) 0%,
+      rgb(0, 255, 247) 100%
+    );
+  }
+  .html {
+    width: 60%;
+    animation: html 3s;
+  }
+  .css {
+    width: 50%;
+    animation: css 3s;
+  }
+  .java {
+    width: 30%;
+    animation: java 3s;
+  }
+  .c {
+    width: 60%;
+    animation: c 3s;
+  }
+  @keyframes html {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 60%;
+    }
+  }
+  @keyframes css {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 50%;
+    }
+  }
+  @keyframes java {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 30%;
+    }
+  }
+  @keyframes c {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 60%;
+    }
+  }
+.dynamic{
+  list-style-type: none;
+  color: rgb(0, 0, 0);
+}
+
